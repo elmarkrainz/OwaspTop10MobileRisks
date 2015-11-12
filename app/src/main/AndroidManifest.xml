@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.fhj.secswdev.owasptop10mobilerisks" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_mad_generic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".m2.ActivityM2"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".m3.ActivityM3"
+            android:label="@string/title_activity_activity_m3" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".m4.ActivityM4"
+            android:label="@string/title_activity_activity_m4" />
+        <activity android:name=".m5.SecureActivity" />
+        <activity
+            android:name=".m5.ActivityM5Start"
+            android:label="@string/title_activity_activity_m5_start" >
+        </activity>
+        <activity
+            android:name=".ActivityM6"
+            android:label="@string/title_activity_activity_m6" >
+        </activity>
+        <activity
+            android:name=".m1.ActivityM1"
+            android:label="@string/title_activity_activity_m1" >
+        </activity>
+        <activity
+            android:name=".m7.ActivityM7"
+            android:label="@string/title_activity_activity_m7" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="at.fhj.secswdev.owasptop10mobilerisks.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OWASP Mobile Risks" />
+
+    <Button
+        android:id="@+id/buttonm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startM2"
+        android:text="M2" />
+
+    <Button
+        android:id="@+id/buttonm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startM3"
+        android:text="M3" />
+
+    <Button
+        android:id="@+id/buttonm4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startM4"
+        android:text="M4" />
+
+    <Button
+        android:id="@+id/buttonm5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startM5"
+        android:text="M5" />
+
+    <Button
+        android:id="@+id/buttonm6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startM6"
+        android:text="M6" />
+
+    <Button
+        android:id="@+id/buttonm7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startM7"
+        android:text="M7" />
+
+
+</LinearLayout>

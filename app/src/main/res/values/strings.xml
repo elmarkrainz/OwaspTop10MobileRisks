@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OwaspTop10MobileRisks</string>
+    <string name="title_activity_activity_m3">ActivityM3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_activity_m4">ActivityM4</string>
+    <string name="title_activity_activity_m5_start">ActivityM5Start</string>
+    <string name="title_activity_activity_m6">ActivityM6</string>
+    <string name="title_activity_activity_m1">ActivityM1</string>
+    <string name="title_activity_activity_m7">ActivityM7</string>
+</resources>
